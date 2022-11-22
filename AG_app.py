@@ -21,7 +21,7 @@ def diagnosis():
     db=0
     
     #GROUP1
-    gender=st.sidebar.selectbox('Пол',('Мужчина','Женщина'))
+    gender=st.sidebar.selectbox('Полл',('Мужчина','Женщина'))
     #возраст
     age=st.sidebar.slider('Возраст', 0,110,43)
     smoking=st.sidebar.selectbox('Курение',('Да','Нет'))
